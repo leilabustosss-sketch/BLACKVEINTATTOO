@@ -1,0 +1,114 @@
+body {
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+    color: #fffdfd;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.contenedor-contacto {
+    display: flex;
+    gap: 120px; 
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contenedor-contacto form {
+    flex: 1;
+    min-width: 280px;
+} 
+
+.navbar-brand {
+    color: #fcf8f8 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+
+.nav-link {
+    color: #ffffff !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #a175c5 !important;
+}
+
+
+.LEILA {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('fecbe1939975788eba66f5463c3ab21a.jpg') center/cover;
+}
+
+.LEILA h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+
+.LEILA p {
+    color: #faf8f8;
+    margin-bottom: 20px;
+}
+
+.LEILA a {
+    background: #603872;
+    color: #f1efef;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    height: 40vh;
+}
+
+.gallery div {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 { background-image: url('maquina-de-tatuar.jpg'); }
+.img3 { background-image: url('_MG_1318.jpg'); }
+
+main {
+    padding: 30px;
+    min-height: 400px;
+}
+
+.contenedor-1, .contenedor-2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+article {
+    background-color: #806b7d; 
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+article img {
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
